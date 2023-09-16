@@ -7,4 +7,24 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\dot.png" />
+    <None Remove="Images\dot2.png" />
+    <None Remove="Images\dot3.png" />
+    <None Remove="Images\hover_login.png" />
+    <None Remove="Images\normal_login.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia.Svg" Version="11.0.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\dot.png" />
+    <Resource Include="Images\dot2.png" />
+    <Resource Include="Images\dot3.png" />
+    <Resource Include="Images\hover_login.png" />
+    <Resource Include="Images\normal_login.png" />
+  </ItemGroup>
+
 </Project>
